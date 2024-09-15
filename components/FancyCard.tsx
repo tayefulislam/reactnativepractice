@@ -10,13 +10,13 @@ export default class FancyCard extends Component {
               <ScrollView horizontal={true}>
               <View style={[styles.card, styles.cardElevated]}>
                   <Image style={styles.imageStyle} source={{
-                      uri: 'https://ecdn.dhakatribune.net/contents/cache/images/1100x618x1/uploads/media/2023/11/17/rain-Dhaka-2-b8ca5f2da412e28f1dc1e41fab228897.jpg?jadewits_media_id=9334',
+                      uri: 'https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/459795921_491982767086987_7406786002803195659_n.jpg?stp=dst-jpg_p526x296&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGLY-X_1rvs-I28AzKH7klWwWaGlL4QezrBZoaUvhB7OgFQkl_r6bVEsy5Fr-7MIpdKCqQv6o5cgRRiuI4pP9a2&_nc_ohc=AwxS2_FPIB0Q7kNvgHsuRMn&_nc_ht=scontent.fdac5-1.fna&_nc_gid=AcgVTiPG0YEcnMqdkHKCBoj&oh=00_AYAryvlNENFuj3xDQlzXySSg-W9wk7hQ2VUFdqjDAxBmRg&oe=66EC8FEC',
 
                   }} />
                   <View style={styles.cardBody}>
                       <Text style={styles.cardTitle}>Dhaka</Text>
                       <Text style={styles.cardLevel}>Bangladesh</Text>
-                      <Text style={styles.cardDescription}>Tasnova Habib, a student of Ideal School, said: "I woke up in the morning to see it was raining. After getting ready for school, I could ot find any rickshaws. Eventually, it got too late, and I could not go to school. Later, I found out that many of my classmates also could not attend."</Text>
+                      <Text numberOfLines={5} style={styles.cardDescription}>Tasnova Habib, a student of Ideal School, said: "I woke up in the morning to see it was raining. After getting ready for school, I could ot find any rickshaws. Eventually, it got too late, and I could not go to school. Later, I found out that many of my classmates also could not attend."</Text>
                       <Text style={styles.cardFooter}>Dhaka,Bangladesh</Text>
                     
                   </View>
@@ -29,7 +29,7 @@ export default class FancyCard extends Component {
                   <View style={styles.cardBody}>
                       <Text style={styles.cardTitle}>Rivers in Dhaka, Barishal</Text>
                       <Text style={styles.cardLevel}>Bangladesh</Text>
-                      <Text style={styles.cardDescription}>‘Water levels of rivers in Dhaka, Barisal and Khulna divisions are increasing. According to meteorological agencies, a deep depression is located over Gangetic West Bengal and adjoining areas and heavy rainfall (44-88mm/24 hours) is expected over coastal areas and</Text>
+                      <Text numberOfLines={5} style={styles.cardDescription}>‘Water levels of rivers in Dhaka, Barisal and Khulna divisions are increasing. According to meteorological agencies, a deep depression is located over Gangetic West Bengal and adjoining areas and heavy rainfall (44-88mm/24 hours) is expected over coastal areas and</Text>
                       <Text style={styles.cardFooter}>Dhaka,Bangladesh</Text>
                     
                   </View>
