@@ -1,8 +1,8 @@
 import { SafeAreaView, ScrollView,  } from 'react-native';
 import React, { Component } from 'react';
 import FlatCard from './components/FlatCard';
-import EvelatedCard from './components/EvelatedCard';
 import ElevatedCard from './components/ElevatedCard';
+import FancyCard from './components/FancyCard';
 
 export class App extends Component {
   render() {
@@ -10,7 +10,8 @@ export class App extends Component {
       <SafeAreaView>
         <ScrollView>
           <FlatCard />
-       <ElevatedCard></ElevatedCard>
+          <ElevatedCard />
+          <FancyCard/>
         </ScrollView>
       </SafeAreaView>
     );
