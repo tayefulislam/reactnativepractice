@@ -36,8 +36,7 @@ export default class FlatCard extends Component {
 const styles = StyleSheet.create({
     sectionTitle: {
         fontWeight: 'bold',
-        fontSize: 40,
-        textAlign: 'center',
+        fontSize: 30,
         marginTop: 12,
     },
     container: {
