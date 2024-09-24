@@ -17,7 +17,7 @@ export default class ActionCard extends Component {
 
                 <Image style={styles.cardImage}
                     source={{
-                    uri:'https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1640512633829.jpg'
+                    uri:'https://chibapcmart.com/images/products/16-macbook-air-i5-4gb-ram-128gb-ssd-a-reliable-lightweight-powerhouse-for-everyday-use-1.jpg?_=1726946604'
                     }} />
                 
                 <View style={styles.bodyContainer}>
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     headingContainer: {},
     headerText: {},
     cardImage: {
-        height:500,
+        height:400,
     },
     bodyContainer: {},
     footerContainer:{},
